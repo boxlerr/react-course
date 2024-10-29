@@ -3,4 +3,10 @@ import ReactDOM from 'react-dom/client'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
-root.render(<h1>Hello World!</h1>)
+
+function Greeting () {
+    return <h1>Este es un Componente</h1>
+}
+
+
+root.render(Greeting()) 
